@@ -43,9 +43,9 @@ Sample Code :
 ----------------
 
 
- EnfieldSDK.INSTANCE.getBleObject(new EnfieldSDK.enfieldCallback() {
-            @Override
-            public void onResult(@NonNull Map<EnfieldSDK.KEY, String> result) {
+         EnfieldSDK.INSTANCE.getBleObject(new EnfieldSDK.enfieldCallback() {
+                    @Override
+                    public void onResult(@NonNull Map<EnfieldSDK.KEY, String> result) {
 
 
                 //getting Speed value - Since Speed is default you need not to enable any
