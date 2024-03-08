@@ -1,6 +1,6 @@
 
 
-This is a MockSDK to mimic BLE SDK Data from the below parameters 
+This is a MockSDK to mimic BLE SDK Data for the below parameters 
 
         SPEED,
         SOC,
@@ -21,7 +21,7 @@ This is a MockSDK to mimic BLE SDK Data from the below parameters
       SOC - 5000 milliseconds 
       ODO - 5000 milliseconds 
 
-  Query and Get Parameters, User has to enable to get the Value. 
+  Query and Get Parameters, User has to enable using specific fucntion to get the Value. 
 
         RIGHT_IND, - 5000 milliseconds - Default Value is false 
         LEFT_IND,  - 5000 milliseconds - Default Value is false 
@@ -34,9 +34,9 @@ This is a MockSDK to mimic BLE SDK Data from the below parameters
 
 How to Integrate -  
 
-1) Get the aar file and Integarte it to your project.
+1) Get the aar file and Integarte it to your project. ( Download from the Project - MockSDK-debug.aar ) 
 2) Gradle Implementation was already added as a sample Application
-3) Add (@InternalCoroutinesApi) annotation in the top of the class you are implementing this library
+3) Add (@InternalCoroutinesApi) annotation in the top of the class where you are implementing this library
 
 
 Sample Code : 
@@ -55,7 +55,7 @@ Sample Code :
                     });
                 }
 
-                //NOTE : You can get the value by changing the KEY 
+                //NOTE : You can get the value of different field by changing the KEY 
                 //NOTE : Check for null before Using 
 
 
